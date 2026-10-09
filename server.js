@@ -64,9 +64,17 @@ app.get("/", (req, res) => {
             SellBoost helps clothing sellers attract more customers,
             promote their products and increase sales.
           </p>
-          <button onclick="window.location.href='/services'">
-            Get Started
-          </button>
+          <a href="/services" style="
+display: inline-block;
+background: #16a34a;
+color: white;
+text-decoration: none;
+padding: 14px 24px;
+border-radius: 8px;
+font-size: 16px;
+">
+Get Started
+</a>
         </div>
       </div>
     </body>
