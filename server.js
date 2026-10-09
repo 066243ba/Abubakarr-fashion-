@@ -68,12 +68,9 @@ app.get("/", (req, res) => {
   Get Started
 </a>
 
-padding: 14px 24px;
-border-radius: 8px;
-font-size: 16px;
-">
-Get Started
-</a>
+
+
+
         </div>
       </div>
     </body>
