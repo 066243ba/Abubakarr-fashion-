@@ -73,7 +73,25 @@ app.get("/", (req, res) => {
     </html>
   `);
 });
-
+app.get("/services", (req, res) => {
+  res.send(`
+    <html>
+      <head>
+        <title>SellBoost Services</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head>
+      <body style="font-family: Arial; text-align: center; padding: 30px;">
+        <h1>SellBoost Services</h1>
+        <p>We help clothing sellers attract more customers and increase sales.</p>
+        <h2>Our Services</h2>
+        <p>Product Promotion</p>
+        <p>Customer Attraction</p>
+        <p>Sales Growth Support</p>
+        <a href="/">Back to Home</a>
+      </body>
+    </html>
+  `);
+});
 app.listen(PORT, () => {
   console.log(`SellBoost running on port ${PORT}`);
 });
