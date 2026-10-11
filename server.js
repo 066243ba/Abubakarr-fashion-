@@ -65,7 +65,7 @@ app.get("/", (req, res) => {
             promote their products and increase sales.
           </p>
           <a href="/services" style="display:inline-block; background:#16a34a; color:white; text-decoration:none; padding:14px 24px; border-radius:8px;">
-  display app
+  open app;
 </a>
 
 
