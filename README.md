@@ -5,4 +5,4 @@ SellBoost/
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
-└── README.md
+└── public.md
